@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - CameraScript
+    - EnemyMoveScript
     - PlayerScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -14,11 +15,15 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -51,28 +56,42 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 62
       Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 592}
+      Script: {instanceID: 600}
     - Class: 114
-      Script: {instanceID: 11728}
+      Script: {instanceID: 11734}
     - Class: 114
-      Script: {instanceID: 12036}
+      Script: {instanceID: 12042}
     - Class: 114
-      Script: {instanceID: 12796}
+      Script: {instanceID: 12802}
     - Class: 114
-      Script: {instanceID: 13938}
+      Script: {instanceID: 13348}
     - Class: 114
-      Script: {instanceID: 14386}
+      Script: {instanceID: 13836}
     - Class: 114
-      Script: {instanceID: 15020}
+      Script: {instanceID: 13948}
     - Class: 114
-      Script: {instanceID: 18822}
+      Script: {instanceID: 14396}
     - Class: 114
-      Script: {instanceID: 23218}
+      Script: {instanceID: 15030}
+    - Class: 114
+      Script: {instanceID: 22288}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -360,6 +379,12 @@ ScriptsOnlyBuild:
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
+      Hash: 66bca5cc6a18c5298ec75235e56a84d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraScript
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -394,6 +419,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 6c4d04eb81f4d154788a4ce342ffea81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerScript
   - hash:
       serializedVersion: 2
       Hash: 71b711096c6c32621c1d4c02310898b7
@@ -588,17 +619,11 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: ba8885765ad8fe055d2176fbae6efcd9
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PlayerScript
-  - hash:
-      serializedVersion: 2
-      Hash: 66bca5cc6a18c5298ec75235e56a84d6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraScript
+    className: EnemyMoveScript
   platform: 5
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/Russell/Documents/Goodrich Maya Projects/goodrich_russell_dig3480_tutorial2/goodrich_physicsproject.exe
+  playerPath: C:/Users/Russell/Documents/Goodrich Maya Projects/Project2_demonstration/goodrich_physicsproject.exe
